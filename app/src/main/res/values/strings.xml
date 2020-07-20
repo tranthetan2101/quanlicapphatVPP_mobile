@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Quản lý cấp phát văn phòng phẩm</string>
+    <string name="password">nhập mật khẩu</string>
+    <string name="user">tên đăng nhập</string>
+    <string name="DN">Login</string>
+    <string name="buttonExit">Exit</string>
+    <string name="taikhoan">User</string>
+    <string name="phong">Phòng Ban</string>
+    <string name="nhanvien">Nhân Viên</string>
+    <string name="capphatVPP">Cấp phát VPP</string>
+    <string name="vpp">Văn phòng phẩm</string>
+    <string name="timkiem">Tìm kiếm</string>
+    <string name="them">Thêm</string>
+    <string name="refesh">Refesh</string>
+    <string name="xoa">Xóa</string>
+    <string name="sua">Sửa</string>
+    <string name="menu">Menu</string>
+    <string name="themuser">Thêm User</string>
+    <string name="dangki">Đăng kí</string>
+</resources>

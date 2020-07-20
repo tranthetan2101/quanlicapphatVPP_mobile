@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THÊM NHÂN VIÊN"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Mã NV:" />
+
+        <EditText
+            android:id="@+id/editTextMaNV"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Tên NV:" />
+
+        <EditText
+            android:id="@+id/editTextTenNV"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Phòng ban:" />
+
+        <Spinner
+            android:id="@+id/SpinnerPhongban"
+            android:layout_width="253dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Chức vụ:" />
+
+        <EditText
+            android:id="@+id/editTextChucvu"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Năm sinh:" />
+
+        <EditText
+            android:id="@+id/editTextNamsinh"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="CMND :" />
+
+        <EditText
+            android:id="@+id/editTextCMND"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Phone :" />
+
+        <EditText
+            android:id="@+id/editTextSDT"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Email :" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:id="@+id/buttonThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/them"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/buttonSua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sua"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/buttonRefesh"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/refesh"/>
+        <Button
+            android:id="@+id/buttonThoat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonExit" />
+    </LinearLayout>
+
+</LinearLayout>

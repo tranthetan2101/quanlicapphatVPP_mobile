@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="MENU"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonUser"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="@string/taikhoan"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonPhongban"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/phong"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonNhanvien"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/nhanvien"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonCapphatvpp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/capphatVPP"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonVPP"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/vpp"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/buttonThoat"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/buttonExit"
+            android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>
